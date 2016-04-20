@@ -1,6 +1,6 @@
 ## Other Scripts
 DIR=$(dirname $0)
-source ${DIR}/.profile_airbnb
+source ~/.profile_airbnb
 
 ## Path
 
