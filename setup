@@ -1,4 +1,0 @@
-ln -ns $(pwd)/.gitconfig ~/.gitconfig
-ln -ns $(pwd)/.bashrc ~/.bashrc
-
-. ~/.bashrc
