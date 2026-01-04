@@ -1,0 +1,49 @@
+[user]
+	name = Nick Reynolds
+	email = nick.reynolds@discordapp.com
+
+[core]
+	editor = vim
+
+[alias]
+	# Status
+	s = status -sb
+	st = status -s -b
+
+	# Commit
+	c = commit
+	cm = commit -m
+	amend = commit --amend --no-edit
+
+	# Branch
+	br = branch -a -v
+	co = checkout
+	cb = checkout -b
+
+	# Diff
+	d = diff
+	ds = diff --staged
+
+	# Log
+	l = log --oneline --graph --decorate -20
+	la = log --oneline --graph --decorate --all -20
+	logd = log --pretty='%C(yellow)%h %C(cyan)%ar %Creset%s'
+	last = log -1 HEAD --stat
+
+	# Push/Pull
+	p = push
+	pf = push --force-with-lease
+	pl = pull
+	plr = pull --rebase
+
+	# Add
+	a = add
+	aa = add --all
+
+	# Undo
+	undo = reset HEAD~1 --mixed
+	unstage = reset HEAD --
+
+	# Misc
+	cp = cherry-pick
+	stash-all = stash save --include-untracked
